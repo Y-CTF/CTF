@@ -23,3 +23,9 @@ Objective: Exploit the buffer overflow in the provided code to execute the hidde
 Narrative: Having demonstrated your technical prowess, The Committee now tests your cryptographic skills. A message encrypted with the Vigenère cipher needs to be decrypted using a hint provided by The Committee. This challenge will deepen your understanding of encryption and decryption techniques, key components of protecting data.
 
 Objective: Decrypt the Vigenère cipher using the provided hint to reveal the encrypted message and advance to the final challenge.
+
+## Challenge 3: Flags reloaded
+
+Narrative: The Committee is really impressed by your skills ! However, they cannot let you break all of it's challenges and make a fool out of them ! An encrypted message has been once again hidden in images. But it seems that they are broken ! Your task is to recover both flags hidden in the each of the respective image. 
+
+Objective: Look deeper into the images using the provided hints to reveal the hidden flags and you'll be one of the few that succeeded in beating us.
