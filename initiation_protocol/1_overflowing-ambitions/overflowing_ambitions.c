@@ -15,19 +15,18 @@
 extern char *gets(char *buffer);
 
 void hidden_function() {
-  puts("Congratulations, you've successfully exploited the buffer overflow!\n");
-  puts("Here's your flag: YCTF{never_use_this_function}\n");
+    puts("Congratulations, you've successfully exploited the buffer overflow!\n");
 }
 
 void vulnerable_function() {
-  char buffer[64];
-  puts("Enter some text: ");
-  // This function is vulnerable because it does not check the size of the input
-  gets(buffer);
+    char buffer[64];
+    puts("Enter some text: ");
+    // This function is vulnerable because it does not check the size of the input
+    gets(buffer);
 }
 
 int main() {
-  vulnerable_function();
-  printf("Thank you for your input!\n");
-  return 0;
+    vulnerable_function();
+    printf("Thank you for your input!\n");
+    return 0;
 }
